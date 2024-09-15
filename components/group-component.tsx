@@ -106,7 +106,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({ className = "", data, se
                   />
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-3 min-w-[384px] max-w-full mq750:flex-wrap mq750:min-w-full">
-                  <div className="flex-1 rounded-xl bg-white border-lightgray-100 border-[1px] border-solid box-border flex flex-row items-start justify-start pt-[7px] px-[15px] pb-2 gap-2 min-w-[292px] max-w-full z-[1]">
+                  <div className="flex-1 rounded-xl bg-white border-lightgray-100 border-[1px] border-solid box-border flex flex-row items-start justify-start pt-[7px] px-[15px] pb-2 gap-2 min-w-[392px] max-w-full z-[1]">
                     <div className="h-[50px] w-[454.8px] relative rounded-xl bg-white border-lightgray-100 border-[1px] border-solid box-border hidden max-w-full" />
                     <div className="h-[20.1px] w-[20.1px] relative overflow-hidden shrink-0 hidden" />
                     <div className="flex flex-col items-start justify-start pt-[3.5px] px-0 pb-0">
@@ -119,7 +119,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({ className = "", data, se
                     <input
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-[268px] [border:none] [outline:none] font-medium font-questrial text-sm bg-[transparent] h-[31px] relative leading-[30.96px] text-dimgray-100 text-center flex items-center justify-center p-0 z-[1]"
+                      className="w-[268px] [border:none] [outline:none] font-medium font-questrial text-sm bg-[transparent] h-[30px] relative leading-[39.96px] text-dimgray-100 text-left flex items-centre justify-centre p-0 z-[1]"
                       placeholder="Search Trademark Here eg. Mickey Mouse"
                       type="text"
                     />
